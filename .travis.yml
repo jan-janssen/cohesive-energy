@@ -15,10 +15,8 @@ script:
   - cp cohesive_energy.html public/index.html
 deploy:
   - provider: pages
-    repo: cohesive-energy/jan-janssen.github.io
-    target_branch: master
     skip_cleanup: true
     github_token: $GH_TOKEN
-    local_dir: ../public
+    local_dir: public
     on:
       branch: master
