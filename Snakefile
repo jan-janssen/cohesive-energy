@@ -1,7 +1,7 @@
 rule cohesive:
     output:
-        "cohesive.csv",
-        "cohesive.html"
+        "cohesive_energy.csv",
+        "cohesive_energy.html"
     conda:
         "envs/cohesive.yaml"
     shell:
