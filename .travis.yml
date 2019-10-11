@@ -7,7 +7,6 @@ install:
   - export PATH="$HOME/miniconda/bin:$PATH"
   - wget ${MINICONDA} -O miniconda.sh
   - bash miniconda.sh -b -p $HOME/miniconda
-  - git clone https://github.com/pyiron/pyiron-resources.git resources
   - conda install -y -c conda-forge -c bioconda python=${PYTHONVER} snakemake
 script:
   - snakemake --use-conda
