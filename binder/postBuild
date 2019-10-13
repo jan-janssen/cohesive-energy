@@ -1,0 +1,7 @@
+# ngl view for jupyter
+jupyter nbextension install nglview --py --sys-prefix
+jupyter nbextension enable nglview --py --sys-prefix
+
+# pyiron setup
+echo "[DEFAULT]\nTOP_LEVEL_DIRS = ${HOME}\nRESOURCE_PATHS = ${HOME}/resources" > ${HOME}/.pyiron
+git clone https://github.com/pyiron/pyiron-resources.git ${HOME}/resources
