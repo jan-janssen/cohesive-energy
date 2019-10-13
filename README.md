@@ -1,5 +1,8 @@
 # cohesive-energy
 
+[![Build Status](https://travis-ci.org/jan-janssen/cohesive-energy.svg?branch=master)](https://travis-ci.org/jan-janssen/cohesive-energy)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/cohesive-energy/master?filepath=scripts%2Fcohesive-energy.ipynb)
+
 Cohesive energy calculated with [pyiron](https://github.com/pyiron/pyiron) and [lammps](https://github.com/lammps/lammps) for the majority of the interatomic potentials available at [NIST](https://www.ctcms.nist.gov/potentials/).
 
 The following potentials are currently missing: 
